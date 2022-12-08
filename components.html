@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VERA</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<!-- select box -->
+<link rel="stylesheet" href="css/sumoselect.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<!-- Theme styles -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link href="css/master.css" rel="stylesheet">
+<link href="css/media.css" rel="stylesheet">
+<!-- for favicon -->
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+<script src="js/ie-emulation-modes-warning.js"></script>
+
+</head>
+<body>
+
+	<header class="custom-head clearfix">
+					<div class="logo pull-left">
+						<img src="img/logo.png" class="logo-main" alt="actionable science logo" />
+						<img src="img/logo-min.png" class="logo-min" alt="actionable science logo" />
+						</div>
+				<div class="pull-right head-menu">
+					<ul class="header-item">
+						<li><a href="#!"><span class="bp-btns"><span><img src="img/previewbtn.png" alt="preview bot"></span>Preview</span></a></li>
+						<li><a href="#!"><span class="bp-btns"><span><img src="img/publish.png" alt="publish bot"></span>Publish</span></a></li>
+						<li>
+							<div class="btn-group">
+								<span class="dropdown-toggle" data-toggle="dropdown">
+									<span class="user-img"><img src="./img/user.png" alt="login use image"></span><span class="caret-n"><img src="img/caret.png"></span>
+								</span>
+								<ul class="dropdown-menu custom-card" role="menu">
+									<li><a href="#"><span class="dd-icon"><i class="fa fa-power-off"></i></span>Logout</a></li>
+									<li><a href="#"><span class="dd-icon"><i class="fa fa-cog"></i></span>Setting</a></li>				
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</header>
+	<div class="side-bar">
+	
+<!--
+		<div class="hambug-pos">
+		<div id="nav-icon1" class="hambug-ico">
+					  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				</div>
+			</div>
+-->
+		<ul class="side-nav-links">
+			<li><a class="side-link" href="#!"><span class="icon"><img src="img/side-i1.png" /></span><span>Dashboard</span></a></li>
+			<li><a class="side-link" href="#!"><span class="icon"><img src="img/side-i2.png" /></span><span>Bots</span></a></li>
+			<li><a class="side-link" href="#!"><span class="icon"><img src="img/side-i3.png" /></span><span>Cases</span></a></li>
+			<li><a class="side-link" href="#!"><span class="icon"><img src="img/side-i4.png" /></span><span>Escalations</span></a></li>
+			<li><a class="side-link" href="#!"><span class="icon"><img src="img/side-i5.png" /></span><span>Billing</span></a></li>
+			<li><a class="side-link" href="#!"><span class="icon"><img src="img/side-i6.png" /></span><span>Setting</span></a></li>
+			<li><a class="side-link" href="#!"><span class="icon"><img src="img/side-i7.png" /></span><span>Train</span></a></li>
+			<li><a class="side-link" href="#!"><span class="icon"><img src="img/side-i8.png" /></span><span>Review</span></a></li>
+			
+		</ul>
+	</div>
+	
+	<div class="page-container">
+			
+		
+			<main class="main-content">
+				<div class="container-fluid">
+				 <div class="row">
+					<div class="col-sm-12">
+					 	<h3>Components to used</h3>
+					 </div>
+				</div>
+				
+				<div class="row start-node">
+					<div class="col-sm-12">
+						<h5 class="section-name">start node</h5>
+					</div>
+					<div class="col-sm-12">
+						<div class="s-node">
+								<span class="st-node">Martial Status Update	</span>
+						</div>
+					</div>
+			   </div>
+				
+				<div class="row input fields">
+					<div class="container-fluid custm-cf">
+					<div class="row">
+					<div class="col-sm-12">
+						<h5 class="section-name">Input Field</h5>
+					</div>
+					</div>	
+						
+					<div class="row">
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Common Input</label>
+								<input type="text" class="form-control asc-in " placeholder="Asc Input Box" />
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Common Input Bg</label>
+								<input type="text" class="form-control asc-in bg-green" placeholder="Asc Input Box" />
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Common Input Bg</label>
+								<input type="text" class="form-control asc-in bg-blue"  />
+						</div>
+					</div>
+					
+						<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Common Input Bg</label>
+								<input type="date" class="form-control asc-in bg-blue"  />
+						</div>
+					</div>
+						
+					<div class="col-sm-3">
+						<div class="asc-input-box two-column clearfix">
+							<div class="split-col-l">
+								<label class="input-title">Two Coloumn Input</label>
+								<input type="text" class="form-control asc-in "  />
+							</div>
+							<div class="split-col-r">
+								<label class="input-title">Two Coloumn Input</label>
+								<input type="text" class="form-control asc-in "  />
+							</div>
+						</div>
+					</div>	
+						
+						
+					</div>
+				
+			   </div>
+					</div>
+					
+					
+					<div class="row input fields">
+					<div class="container-fluid custm-cf">
+					<div class="row">
+					<div class="col-sm-12">
+						<h5 class="section-name">Input Field ( split layout)</h5>
+					</div>
+					</div>	
+						
+					<div class="row">
+					<div class="col-sm-3">
+						<div class="asc-input-box clearfix lft-lebel ">
+							    <label class="input-title">Common Input</label>
+								<input type="text" class="form-control asc-in " placeholder="Asc Input Box" />
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box clearfix lft-lebel">
+							<label class="input-title">Common Input </label>
+								<input type="text" class="form-control asc-in bg-green" placeholder="Asc Input Box" />
+						</div>
+					</div>
+					<div class="col-sm-3"> 
+						<div class="asc-input-box clearfix lft-lebel">
+							<label class="input-title">Common Input </label>
+								<input type="text" class="form-control asc-in bg-blue"  />
+						</div>
+					</div>
+					
+						<div class="col-sm-3">
+						<div class="asc-input-box clearfix lft-lebel">
+							<label class="input-title">Common Input </label>
+								<input type="date" class="form-control asc-in bg-blue"  />
+						</div>
+					</div>
+						
+					<div class="col-sm-3">
+						<div class="asc-input-box two-column clearfix">
+							<div class="split-col-l">
+								<label class="input-title">Two Coloumn Input</label>
+								<input type="text" class="form-control asc-in "  />
+							</div>
+							<div class="split-col-r">
+								<label class="input-title">Two Coloumn Input</label>
+								<input type="text" class="form-control asc-in "  />
+							</div>
+						</div>
+					</div>	
+						
+						
+					</div>
+				
+			   </div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="row input fields">
+						<div class="container-fluid custm-cf">
+							<div class="row">
+							<div class="col-sm-12">
+								<h5 class="section-name">Dropdown (left title)</h5>
+							</div>
+						</div>	
+						
+					<div class="row">
+					<div class="col-sm-3">
+						<div class="asc-input-box clearfix lft-lebel">
+							<label class="input-title">Common Select</label>
+								<select class="form-control asc-in" id="exampleFormControlSelect1">
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box clearfix lft-lebel">
+							<label class="input-title">Common Select</label>
+								<select class="form-control asc-in bg-green" >
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box clearfix lft-lebel">
+							<label class="input-title">Common Select</label>							
+								<select class="form-control asc-in bg-blue" >
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+						</div>
+					</div>
+					</div>
+							
+							<div class="row">
+					<div class="col-sm-3">
+						<div class="asc-input-box clearfix lft-lebel">
+							<label class="input-title">Common Select</label>
+							<div class="dropdown  custom-drop">
+								  <button class="form-control asc-in dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+								  <span class="linkb"><img src="img/link-bg.png"></span></button>
+								  <ul class="dropdown-menu">
+									<li><a href="#">HTML</a></li>
+									<li><a href="#">CSS</a></li>
+									<li><a href="#">JavaScript</a></li>
+								  </ul>
+							</div>
+						</div>
+					</div>
+				
+					</div>
+					</div>
+				
+			   </div>
+					
+					
+					
+					<div class="row input fields">
+						<div class="container-fluid custm-cf">
+							<div class="row">
+							<div class="col-sm-12">
+								<h5 class="section-name">Input Field</h5>
+							</div>
+						</div>	
+						
+					<div class="row">
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Common Select</label>
+								<select class="form-control asc-in" id="exampleFormControlSelect1">
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Common Select</label>
+								<select class="form-control asc-in bg-green" >
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Common Select</label>							
+								<select class="form-control asc-in bg-blue" >
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+						</div>
+					</div>
+					</div>
+							
+							<div class="row">
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Common Select</label>
+							<div class="dropdown  custom-drop">
+								  <button class="form-control asc-in dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+								  <span class="linkb"><img src="img/link-bg.png"></span></button>
+								  <ul class="dropdown-menu">
+									<li><a href="#">HTML</a></li>
+									<li><a href="#">CSS</a></li>
+									<li><a href="#">JavaScript</a></li>
+								  </ul>
+							</div>
+						</div>
+					</div>
+				
+					</div>
+					</div>
+				
+			   </div>
+					
+					
+					
+						<div class="row input fields">
+						<div class="container-fluid custm-cf">
+							<div class="row">
+							<div class="col-sm-12">
+								<h5 class="section-name">Buttons</h5>
+							</div>
+						</div>	
+						
+					<div class="row">
+					<div class="col-sm-3">
+						<div class="asc-buttons clearfix">
+							<button class="btn-asc border-blue"><span>Button Text</span><span class="pull-right bt-in"><img src="img/button-in-ico-b.png"/></span></button>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-buttons clearfix">
+							<button class="btn-asc border-green "><span>Button Text</span><span class="pull-right bt-in"><img src="img/button-in-ico-g.png"/></span></button>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-buttons clearfix">
+							<button class="btn-asc border-red "><span>Button Text</span><span class="pull-right bt-in"><img src="img/button-in-ico-r.png"/></span></button>
+						</div>
+					</div>
+						<div class="col-sm-3">
+							<div class="asc-buttons clearfix">
+								<button class="btn-asc long-text  border-blue"><span class=" lg-text pull-left">this button will be use in card which will be clickable like we have current as-input button </span><span class="pull-right bt-in"><img src="img/button-in-ico-b.png"/></span></button>
+							</div>
+						</div>
+						
+						<div class="col-sm-2">
+						<div class="asc-buttons clearfix">
+							<button class="btn-asc border-green pull-left"><span>Button Text</span><span class="pull-right bt-in"><img src="img/button-in-ico-g.png"/></span></button>
+							<button class="btn-asc border-red pull-right"><span>Button Text</span><span class="pull-right bt-in"><img src="img/button-in-ico-r.png"/></span></button>
+						</div>
+					</div>
+					</div>
+					<div class="row">		
+					
+					<div class="col-sm-3">
+						<div class="asc-buttons clearfix">
+							<button class="btn-asc border-green nb"><span class="pull-left bt-in"><img src="img/button-in-add.png"></span><span>Add a button</span></button>
+							<button class="btn-asc border-red nb"><span class="pull-left bt-in"><img src="img/button-in-close.png"></span><span>Button Text</span></button>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-buttons clearfix">
+							<button class="btn-asc border-red nb"><span class="pull-left bt-in"><img src="img/button-in-close.png"></span><span>Button Text</span></button>
+						</div>
+					</div>
+					</div>
+					</div>		
+				
+			   </div>
+					
+					
+					
+				
+					
+				<div class="row input fields">
+					<div class="container-fluid custm-cf">
+					<div class="row">
+						<div class="col-sm-12">
+							<h5 class="section-name">Text Area</h5>
+						</div>
+					</div>	
+						
+					<div class="row">
+					<div class="col-sm-3">
+						<div class="asc-input-box clearfix lft-lebel">
+								<label class="input-title">Text Area</label>
+							  <textarea class="form-control ta" rows="3"></textarea>
+						
+							
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Text Area</label>
+							<textarea class="form-control ta bg-green" rows="3"></textarea>
+						
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="asc-input-box">
+							<label class="input-title">Text Area</label>
+							<textarea class="form-control ta bg-blue"  rows="3"></textarea>
+			
+						</div>
+					</div>
+					</div>
+				
+			   </div>
+					</div>	
+					
+					<div class="row input fields">
+					<div class="container-fluid custm-cf">
+					<div class="row">
+						<div class="col-sm-12">
+							<h5 class="section-name">Switches and Radio button</h5>
+						</div>
+					</div>	
+						
+					<div class="row">
+					<div class="col-sm-2">
+						<div class="asc-switches clearfix">
+								<label class="sw-text pull-left">Add conﬁrmation buttons</label>
+								<label class="label-switch switch-success pull-right">
+									<input type="checkbox" class="switch switch-bootstrap status" name="status" id="status" value="1" checked="checked">
+								<span class="lable"></span>
+								</label>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="custom-check-box clearfix">
+								<label class="input-title">Radio Button</label>
+								<div class="radio-wrap">
+							 	 <p class="pull-left">
+									<input type="radio" id="test3" name="radio-group" checked>
+									<label for="test3">Test</label>
+  								 </p>
+								 <p class="pull-right">
+									<input type="radio" id="test4" name="radio-group" checked>
+									<label for="test4">Test</label>
+  								 </p>
+									</div>
+						
+						</div>
+					</div>
+						
+						<div class="col-sm-2">
+						<div class="custom-check-box clearfix">
+								<label class="input-title">Radio Button</label>
+								<div class="radio-wrap">
+							 	 <p class="">
+									<input type="radio" id="test5" name="radio-group" checked>
+									<label for="test5">Test</label>
+  								 </p>
+								 <p class="">
+									<input type="radio" id="test6" name="radio-group" checked>
+									<label for="test6">Test</label>
+  								 </p>
+									</div>
+						
+						</div>
+					</div>
+				
+					</div>
+				
+			   </div>
+					</div>	
+					
+					
+					
+					
+					
+					<div class="row input fields">
+					<div class="container-fluid custm-cf">
+					<div class="row">
+						<div class="col-sm-12">
+							<h5 class="section-name">Cards</h5>
+						</div>
+					</div>	
+						
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="asc-card">
+								<div class="p-header">
+								<h3>Basic Card with delete popup </h3>
+								<span class="panel-close" data-toggle="modal" data-target="#deletemodal">
+								<img src="img/delete-ico.png"/>
+								</span>
+								</div>
+								<div class="property-head">
+									<h3 class="cardPromTitle">Please enter your RTI username to continue</h3>
+									<div class="asc-input-box">
+										<label class="input-title">Common Input</label>
+										<input type="text" class="form-control asc-in " placeholder="Asc Input Box" />
+									</div>
+									<div class="asc-buttons clearfix">
+										<button class="btn-asc border-green pull-left"><span>I dont'have a Username</span><span class="pull-right bt-in"><img src="img/button-in-ico-g.png"></span></button>
+										<button class="btn-asc border-red pull-right"><span>Login</span><span class="pull-right bt-in"><img src="img/button-in-ico-r.png"></span></button>
+									</div>
+								</div>
+							</div>					
+						</div>
+						
+						<div class="col-sm-4">
+							<div class="asc-card card-loop">
+								<div class="p-header">
+								<h3>Linked Card</h3>
+								<span class="panel-close" data-toggle="modal" data-target="#deletemodal">
+								<img src="img/delete-ico.png"/>
+								</span>
+								</div>
+								<div class="property-head">
+							</div>
+							</div>					
+						</div>
+						
+						<div class="col-sm-4">
+							<div class="asc-card card-loop">
+								<div class="p-header">
+								<h3>Card With Delete Popup</h3>
+								<span class="panel-close" data-toggle="modal" data-target="#deletemodal">
+								<img src="img/delete-ico.png"/>
+								</span>
+								</div>
+								<div class="property-head">
+									<h3 class="cardPromTitle">Please enter your RTI username to continue</h3>
+									<div class="asc-buttons clearfix">
+											<button class="btn-asc long-text  border-blue"><span class=" lg-text pull-left">I'm here to report an incident(something preventing youfrom doing your work)
+										</span><span class="pull-right bt-in"><img src="img/button-in-ico-b.png"></span></button>
+									</div>
+									<div class="asc-buttons clearfix">
+								<button class="btn-asc long-text  border-blue"><span class=" lg-text pull-left">I'm here to place a request (toget something done etc.)?</span><span class="pull-right bt-in"><img src="img/button-in-ico-b.png"></span></button>
+							</div>
+									<div class="asc-buttons clearfix">
+								<button class="btn-asc long-text  border-blue"><span class=" lg-text pull-left">I need help with a Servicenow request form </span><span class="pull-right bt-in"><img src="img/button-in-ico-b.png"></span></button>
+							</div>
+							</div>
+							</div>					
+						</div>
+						<div class="col-sm-4">
+								<div class="asc-card card-loop collapsable-card">
+									<div class="p-header " data-toggle="collapse" data-target="#demo">
+									<h3>Expandable-card</h3>
+									<span class="minimize-icon">
+										<img src="img/minimize.png"/>
+									</span>	
+									<span class="panel-close" data-toggle="modal" data-target="#deletemodal">
+									<img src="img/delete-ico.png"/>
+									</span>
+									</div>
+									<div class="property-head collapse" id="demo" >
+										jhkajhsdkha
+									</div>
+							</div>
+							</div>					
+						</div>
+						</div>
+					</div>
+				
+			   </div>
+			
+			</main>
+			
+	
+	</div>
+	<footer class="card-collection">
+					     <div class="col-md-12">
+                                    <!-- Nav tabs --><div class="card">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#steps" aria-controls="home" role="tab" data-toggle="tab">Add Steps</a></li>
+                                        <li role="presentation"><a href="#mini-flow" aria-controls="profile" role="tab" data-toggle="tab">Add Mini-Flows</a></li>                                  
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="steps">
+											<ul class="flow-steps sp-ico">
+												<li><span class="card-ico-block"><span class="card-ico ci-1"></span><p>Display Text</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-2"></span><p>Hero Cards</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-3"></span><p>Conﬁrmation Card</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-4"></span><p>Form Card</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-5"></span><p>Form Card2</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-6"></span><p>Carousel Cards</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-7"></span><p>Buttons Widget</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-8"></span><p>List Widget</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-9"></span><p>FAQs Response</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-10"></span><p>Process Script</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-11"></span><p>Feedback Card</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-12"></span><p>Send Text</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-13"></span><p>Fact Card</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-14"></span><p>Display Listcard</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-15"></span><p>Display Table</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-16"></span><p>Text Input</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-17"></span><p>Number Input</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-18"></span><p>Date Input</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-19"></span><p>Process Input</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-20"></span><p>Process Expression</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-21"></span><p>Process Reset</p></span></li>
+												<li><span class="card-ico-block"><span class="card-ico ci-22"></span><p>Process Split</p></span></li>
+											</ul>
+										
+										</div>
+                                        <div role="tabpanel" class="tab-pane" id="mini-flow">
+											<ul class="flow-steps mini-flow">
+												<li><span class="card-ico-block"><span class="miniflow"></span><p>End Chat Conversation</p></span></li>
+												<li><span class="card-ico-block"><span class="miniflow"></span><p>Level1 Menu Option</p></span></li>
+												<li><span class="card-ico-block"><span class="miniflow"></span><p>Escalate to Agent</p></span></li>
+												<li><span class="card-ico-block"><span class="miniflow"></span><p>Create a Ticket</p></span></li>
+												<li><span class="card-ico-block"><span class="miniflow"></span><p>User Identiﬁcation</p></span></li>
+												<li><span class="card-ico-block"><span class="miniflow"></span><p>Level2 Menu Option</p></span></li>
+												<li><span class="card-ico-block"><span class="miniflow"></span><p>Email Chat to User</p></span></li>
+												<li><span class="card-ico-block"><span class="miniflow"></span><p>Level2 Menu Option</p></span></li>
+												<li><span class="card-ico-block"><span class="miniflow createmin"></span><p>Create a Mini Flow</p></span></li>
+											</ul>
+										</div>
+                                   
+                                    </div>
+</div>
+                                </div>
+		
+		</footer>
+
+<!--- delete modal-->
+
+<div id="deletemodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Confirm Delete</h4>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to delete this card?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-success" data-dismiss="modal">Yes</button>
+		  <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+	
+    
+    
+
+<script src="js/jquery.min.js"></script>
+<!-- BOOTSATRAP -->
+<script src="js/bootstrap.min.js"></script>
+<!-- SELECTBOX-->
+<script src="js/custom.js" type="text/javascript"></script>
+<!-- SELECTBOX-->
+<script src="js/jquery.sumoselect.js" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+
+
+
+</body>
+</html>
